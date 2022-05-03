@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="names">
+        <h1 id="firstPlayerPoint"> </h1>
+        <h1 class="title" >Rock Paper Scissors</h1>
+        <h1 id="secondPlayerPoint"> </h1>
+    </div>
+    
+
+    <div class="main-parent" >
+        <div class="parent" >
+            <div class="first-player player" >
+                <i class="fa-solid fa-question"></i>
+            </div>
+            <h1 id="vs" style="margin-top: 50px; font-size: 50px;">VS</h1>
+            <div class="second-player player" >
+                <i class="fa-solid fa-question"></i>
+            </div>  
+        </div>
+        <button class="next-round hidden">Next Round</button>
+        <button class="restart hidden">Restart</button>
+        <div class="instruction" >
+            <div class="player1-controls" >
+                <h1 style="color: black;">Player 1 <br> controls:</h1>
+                <hr>
+                <ul>
+                    <li>"1" for Rock</li>
+                    <li>"2" for Scissor</li>
+                    <li>"3" for Paper</li>
+                </ul>
+            </div>
+            <div class="player2-controls" >
+                <h1 style="color: black;">Player 2 <br> controls:</h1>
+                <hr>
+                <ul>
+                    <li>"8" for Rock</li>
+                    <li>"9" for Scissor</li>
+                    <li>"0" for Paper</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>

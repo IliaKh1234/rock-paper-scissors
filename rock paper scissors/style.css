@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    font-family: 'Shadows Into Light', cursive;
+    background: rgb(0, 0, 0);
+    border: 15px outset white;
+    height: 100vh;
+    animation: startAn 1s ease-in-out forwards;
+}
+.title{
+    color: white;
+    margin-top: 10px;
+}
+.parent{
+    display: flex;
+    gap: 40px;
+    margin: auto;
+    margin-top: 30px;
+}
+.player{
+    width: 30vh;
+    height: 30vh;
+    text-align: center;
+
+}
+@keyframes startAn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+i{
+    font-size: 30vh;
+    color: white;
+}
+h1{
+    color: white;
+}
+.playerMove{
+    text-align: center;
+}
+.instruction{
+    background: white;
+    text-align: center;
+    margin: auto;
+    padding: 20px 45px;
+    margin-top: 90px;
+    display: flex;
+    gap: 25px;
+    font-family: 'Archivo', sans-serif;
+    line-height: 1.5;
+    box-shadow: 5px 5px 15px rgba(112, 112, 112, 0.589),
+                -5px -5px 15px rgba(112, 112, 112, 0.589);
+}
+
+
+.main-parent{
+    display: flex;
+    flex-direction: column;
+}
+.names{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin: auto;
+    width: 50%;
+   text-align: center;
+}
+.next-round{
+    display: inline-block;
+    margin: auto;
+    padding: 10px 15px;
+    color: white;
+    background: green;
+    font-weight: 900;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.restart{
+    display: inline-block;
+    margin: auto;
+    padding: 10px 15px;
+    color: white;
+    background: rgb(165, 0, 0);
+    font-weight: 900;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.hidden{
+    display: none;
+    margin-top: 10px;
+}
